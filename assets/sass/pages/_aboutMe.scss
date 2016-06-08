@@ -1,0 +1,27 @@
+#about-me{
+	padding:10%;
+	background:url("../img/about.png");
+	p{
+		font-family: 'Flamenco', cursive;
+		font-size: 2em;
+	}
+	.perfil{
+		text-align: center;
+		border-radius:80%;
+		width: 60%;
+	}
+}
+.about-footer{
+	background:url("../img/background/bg-1.jpg")no-repeat;
+	height: 250px;
+	background-size:cover;
+	background-color:rgba(0, 0, 255, 0.51);
+	background-blend-mode:color;
+	background-attachment:fixed;
+	h3{
+		color:white;
+		text-align:center;
+		line-height: 250px;
+		font-size: 2em;
+	}
+}

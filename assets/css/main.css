@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Rancho);
+@import url(https://fonts.googleapis.com/css?family=Gudea);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(https://fonts.googleapis.com/css?family=Flamenco);
+@import url(https://fonts.googleapis.com/css?family=Asap);
+h2, h3 {
+  font-weight: bold;
+  font-family: 'Poiret One', cursive;
+  padding-bottom: 2%; }
+
+h1 {
+  font-family: Blackboard Ultra; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.text-left {
+  text-align: left; }
+
+.hade {
+  color: #16ffbd; }
+
+.pb-3 {
+  padding-bottom: 1%; }
+
+header nav, header .navbar-inverse {
+  background: transparent;
+  height: 65px;
+  border: 0; }
+header .navbar-brand {
+  padding: 8px 15px;
+  color: white; }
+header .navbar-inverse .navbar-nav > li > a {
+  color: #16ffbd;
+  font-family: 'Poiret One', cursive;
+  font-weight: bolb;
+  font-size: 1.5em; }
+  header .navbar-inverse .navbar-nav > li > a:hover {
+    background: rgba(22, 255, 189, 0.26);
+    border-radius: 10px; }
+
+.bg-perfil {
+  text-align: center;
+  padding: 250px 0;
+  background: url("../img/background/bg-8.jpg") no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 255, 0.46);
+  background-blend-mode: color;
+  background-attachment: fixed; }
+
+#about-me {
+  padding: 10%;
+  background: url("../img/about.png"); }
+  #about-me p {
+    font-family: 'Flamenco', cursive;
+    font-size: 2em; }
+  #about-me .perfil {
+    text-align: center;
+    border-radius: 80%;
+    width: 60%; }
+
+.about-footer {
+  background: url("../img/background/bg-1.jpg") no-repeat;
+  height: 250px;
+  background-size: cover;
+  background-color: rgba(0, 0, 255, 0.51);
+  background-blend-mode: color;
+  background-attachment: fixed; }
+  .about-footer h3 {
+    color: white;
+    text-align: center;
+    line-height: 250px;
+    font-size: 2em; }
+
+#skill {
+  padding: 6% 0 4%; }
+  #skill hr {
+    border: 2px solid blue; }
+  #skill p {
+    font-size: 1.2em;
+    margin: 4% 0;
+    color: blue; }
+  #skill .circle-group {
+    padding-bottom: 6%; }
+    #skill .circle-group .circle {
+      position: relative;
+      display: inline-block;
+      margin: 3%;
+      vertical-align: top;
+      text-align: center;
+      width: 162px;
+      padding-top: 40px;
+      color: #2A3159; }
+      #skill .circle-group .circle canvas {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0; }
+      #skill .circle-group .circle img {
+        margin-top: 10%; }
+      #skill .circle-group .circle i {
+        font-size: 3em;
+        display: block; }
+      #skill .circle-group .circle span {
+        font-size: 1.2em; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,40 @@
+#skill{
+	padding: 6% 0 4%;
+	hr{
+		border: 2px solid blue;
+	}
+	p{
+		font-size: 1.2em;
+		margin: 4% 0;
+		color: blue;
+	}
+	.circle-group{
+		padding-bottom: 6%;
+		.circle {
+		    position: relative;
+		    display: inline-block;
+		    margin: 3%;
+		    vertical-align: top;
+		    text-align: center;
+		    width: 162px;
+		    padding-top: 40px;
+		    color: #2A3159;
+		    canvas {
+			    display: block;
+			    position: absolute;
+			    left: 0;
+			    top: 0;
+			}
+			img{
+				margin-top: 10%;
+			}
+			i{
+				font-size: 3em;
+				display: block;
+			}
+			span{
+				font-size: 1.2em;
+			}
+		}
+	}
+}

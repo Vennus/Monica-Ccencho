@@ -1,0 +1,31 @@
+header {
+	nav,.navbar-inverse{
+		background:transparent;
+		height: 65px;
+		border:0;
+	}
+	.navbar-brand{
+		padding: 8px 15px;
+		color: white;
+	}
+	.navbar-inverse .navbar-nav > li > a{
+		color:#16ffbd;
+		font-family: 'Poiret One', cursive;
+		font-weight: bolb;
+		font-size: 1.5em;
+		&:hover{
+			background: rgba(22, 255, 189, 0.26);
+    		border-radius: 10px;
+		}
+	}
+
+}
+.bg-perfil{
+	text-align:center;
+	padding:250px 0;
+	background:url("../img/background/bg-8.jpg") no-repeat;
+	background-size:cover;
+	background-color:rgba(0, 0, 255, 0.46);
+	background-blend-mode:color;
+	background-attachment:fixed;
+}
