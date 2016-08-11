@@ -41,7 +41,6 @@ header nav, header .navbar-inverse {
   header nav .navbar-toggle, header .navbar-inverse .navbar-toggle {
     border: none; }
   header nav .navbar-collapse, header .navbar-inverse .navbar-collapse {
-    background: rgba(33, 33, 33, 0.54);
     border: none; }
 header .navbar-brand {
   padding: 8px 15px;
