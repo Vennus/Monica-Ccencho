@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es-PE">
+<html>
   <head>
     <title></title>
     <meta charset="utf-8">
@@ -12,10 +12,10 @@
   </head>
   <body>
     <header>
-      <div role="banner" class="navbar navbar-inverse navbar-fixed-top wet-asphalt">
+      <nav id="menu" role="banner" class="navbar navbar-inverse navbar-fixed-top wet-asphalt">
         <div class="container">
           <div class="navbar-header">
-            <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="home.html" class="navbar-brand"><img src="assets/img/icon-1.png" alt="logo"></a>
+            <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="home.html" class="navbar-brand"><img src="assets/img/icon-1.png" alt="logo" class="icon-logo"></a>
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -26,7 +26,7 @@
             </ul>
           </div>
         </div>
-      </div>
+      </nav>
       <div class="bg-perfil">
         <div class="container"><a href="#aboutMe"><img src="assets/img/name-2.png"></a>
           <h2 class="hade"> FRONT-END DEVELOPER</h2>
@@ -34,24 +34,27 @@
       </div>
     </header>
     <section id="about-me">
-      <div class="container">
-        <h2>CONOCEME </h2>
+      <div class="container text-about">
+        <h2>CONÓCEME </h2>
         <div class="row">
           <div class="col-md-8 col-sm-8">
-            <p>¡Hola!  mi nombre es Monica Ccencho, tengo 20 años y soy desarrolladora Front-end, y estudiante de Administracion de Negocios Internacionales.</p>
-            <p>Soy una joven que se caracteriza por ser carismatica e innovadora y con habiliades en HTML, CSS, JADE, SASS, BOOTSTRAP, RESPONSIVE y estoy explorando JAVASCRIPT.</p>
+            <p>¡Hola!  mi nombre es Monica Ccencho, tengo 20 años y soy desarrolladora Front-end, y estudiante de Administración de Negocios Internacionales.</p>
+            <p>Soy una joven que se caracteriza por ser carismática e innovadora y con habiliades en HTML, CSS, JADE, SASS, BOOTSTRAP, RESPONSIVE y estoy explorando JAVASCRIPT.</p>
           </div>
           <div class="col-md-4 col-sm-4 text-center"><img src="assets/img/perfil.jpg" class="perfil"></div>
         </div>
       </div>
     </section>
-    <div class="about-footer">
-      <h3>« No tengo talentos especiales, pero sí soy profundamente curioso »</h3>
-    </div>
+    <section class="frase">
+      <div class="container">
+        <div class="row">
+          <h3>"Si puedes imaginarlo, puedes lograrlo"</h3>
+        </div>
+      </div>
+    </section>
     <section id="skills">
       <div class="container text-center">
         <h2>Habilidades</h2>
-        <hr width="10%" align="center">
         <p>Estas son las herramientas que utilizo para realizar mis páginas web.</p>
         <div class="row circle-group">
           <div class="col-md-3 col-sm-3 col-xs-12">
@@ -99,11 +102,91 @@
         </div>
       </div>
     </section>
+    <section id="work">
+      <div class="container">
+        <h2>Mis Trabajos</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <figure class="effect"><img src="assets/img/work/blog.png" alt="blog">
+              <figcaption>
+                <h3>BLOG</h3>
+                <p>Trabajo realizado con Css, Html y Bootstrap</p><a href="#"><i class="ion-social-github"></i></a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4">
+            <figure class="effect"><img src="assets/img/work/dash.png">
+              <figcaption></figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4">
+            <figure class="effect"><img src="assets/img/work/flat.png">
+              <figcaption>
+                <h3>TITULO</h3>
+                <p>Trabajo relaiza con ...</p><a href="#"><i class="ion-social-github"></i></a>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <figure class="effect"><img src="assets/img/work/knot.jpg">
+              <figcaption>
+                <h3>TITULO</h3>
+                <p>Trabajo relaiza con ...</p><a href="https://github.com/Vennus/Knots"><i class="ion-social-github"></i></a><a href="http://vennus.github.io/Knots/"><i></i></a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4">
+            <figure class="effect"><img src="assets/img/work/kane.png">
+              <figcaption>
+                <h3>TITULO</h3>
+                <p>Trabajo relaiza con ...</p><a href="#"><i class="ion-social-github"></i></a><a href="http://vennus.github.io/kane/"><i class="ion-social-apple-outline"></i></a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4">
+            <figure class="effect"><img src="assets/img/work/love.png">
+              <figcaption>
+                <h3>TITULO</h3>
+                <p>Trabajo relaiza con ...</p><a href="#"><i class="ion-social-github"></i></a>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2>Contactame</h2>
+        <div class="row">
+          <p class="text-contact">Hey! ¿Te gusta lo que ves? ¿Listo para empezar tu siguiente proyecto? ¡Genial! Dame una llamada o envíame un correo y te responderé lo más rápido que pueda.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6"><i class="ion-ios-telephone"></i>
+            <p>961-761-914</p>
+          </div>
+          <div class="col-md-6"><i class="ion-android-mail"></i>
+            <p>ccencho.monica@gmail.com</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4"><a href="www.linkedin.com/in/monica-ccencho"><i class="ion-social-linkedin"></i></a></div>
+          <div class="col-md-4"><a href="https://github.com/Vennus"><i class="ion-social-github"></i></a></div>
+          <div class="col-md-4"><a href="https://twitter.com/MonicaCcencho"><i class="ion-social-twitter"></i></a></div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <p>Copyright © 2015 | Diseñado y desarrollado por Monica Ccencho.</p>
+        </div>
+      </div>
+    </footer>
     <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/AnimatedHeader.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/js/jquery.fittext.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/skills.js"> </script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

@@ -1,0 +1,116 @@
+#work{
+	padding: 40px;
+	img{
+		width: 100%;
+		opacity: 1;
+	}
+	.effect {
+	  overflow: hidden;
+	  margin: 10px 1%;
+	  width: 100%;
+	  color: #ffffff;
+	  text-align: center;
+	  font-size: 16px;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box;
+	  -webkit-transition: all 0.35s ease;
+	  transition: all 0.35s ease;
+	}
+	.effect:after,
+	.effect:before,
+	.effect figcaption:after,
+	.effect figcaption:before {
+	  background: #73efe4;
+	  width: 25%;
+	  position: absolute;
+	  content: '';
+	  opacity: 0;
+	  -webkit-transition: all 0.3s steps(4);
+	  transition: all 0.3s steps(4);
+	  z-index: 1;
+	  top: 100%;
+	  bottom: 0;
+	}
+	.effect:before {
+	  left: 0;
+	  -webkit-transition-delay: 0;
+	  transition-delay: 0;
+	}
+	.effect:after {
+	  left: 25%;
+	  -webkit-transition-delay: 0.1s;
+	  transition-delay: 0.1s;
+	}
+	.effect figcaption:before {
+	  left: 50%;
+	  -webkit-transition-delay: 0.2s;
+	  transition-delay: 0.2s;
+	  z-index: -1;
+	}
+	.effect figcaption:after {
+	  left: 75%;
+	  -webkit-transition-delay: 0.3s;
+	  transition-delay: 0.3s;
+	  z-index: -1;
+	}
+	.effect figcaption {
+	  position: absolute;
+	  top: 0;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  z-index: 2;
+	  padding: 30px;
+	}
+	.effect h3,
+	.effect p,
+	.effect a {
+	  opacity: 0;
+	}
+	.effect {
+		h3{
+		text-transform: uppercase;
+		}
+		i{
+	  	font-size: 24px;
+	  	color: #ffffff;
+	  	text-align: center;
+	  	opacity: 0.8;
+		  	i:hover {
+			  opacity: 1;
+			}
+		}
+	}
+	/*Efecto hover*/
+	.effect:hover:after,
+	.effect.hover:after,
+	.effect:hover:before,
+	.effect.hover:before,
+	.effect:hover figcaption:after,
+	.effect.hover figcaption:after,
+	.effect:hover figcaption:before,
+	.effect.hover figcaption:before {
+	  top: 0;
+	  opacity: 0.8;
+	}
+	.effect:hover figcaption h3,
+	.effect.hover figcaption h3,
+	.effect:hover figcaption p,
+	.effect.hover figcaption p,
+	.effect:hover figcaption a,
+	.effect.hover figcaption a {
+	  -webkit-transition-delay: 0.4s;
+	  transition-delay: 0.4s;
+	}
+	.effect:hover figcaption h3,
+	.effect.hover figcaption h3,
+	.effect:hover figcaption a,
+	.effect.hover figcaption a {
+	  opacity: 1;
+	}
+	.effect:hover figcaption p,
+	.effect.hover figcaption p {
+	  opacity: 0.7;
+	}
+
+}

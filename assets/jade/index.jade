@@ -1,0 +1,144 @@
+doctype
+html
+	head
+		title= portafolio
+		meta(charset="utf-8")
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		meta(name='description', content='Baking Bootstrap Snippets with Jade')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		link(rel="stylesheet", href="assets/font/ionicons-2.0.1/css/ionicons.css")
+		link(href="assets/css/bootstrap.css",rel="stylesheet")
+		link(href="assets/css/main.css", rel="stylesheet")
+	body
+		include base/header
+		section#about-me
+			.container.text-about
+				h2 CONÓCEME 
+				.row
+					.col-md-8.col-sm-8
+						p ¡Hola!  mi nombre es Monica Ccencho, tengo 20 años y soy desarrolladora Front-end, y estudiante de Administración de Negocios Internacionales.
+						p Soy una joven que se caracteriza por ser carismática e innovadora y con habiliades en HTML, CSS, JADE, SASS, BOOTSTRAP, RESPONSIVE y estoy explorando JAVASCRIPT.
+					.col-md-4.col-sm-4.text-center
+						img(src="assets/img/perfil.jpg", class="perfil")
+		section.frase
+			.container
+				.row
+					h3 "Si puedes imaginarlo, puedes lograrlo"
+		section#skills
+			.container.text-center
+				h2 Habilidades
+				p Estas son las herramientas que utilizo para realizar mis páginas web.
+				.row.circle-group
+					.col-md-3.col-sm-3.col-xs-12
+						.circle.1
+							img(src="assets/img/skills/icon-html.png", alt="icon-jade")
+							p 85%
+					.col-md-3.col-sm-3.col-xs-12
+						.circle.2
+							img(src="assets/img/skills/icon-css.png", alt="icon-jade")
+							p 82%
+					.col-md-3.col-sm-3.col-xs-12
+						.circle.3
+							img(src="assets/img/skills/icon-jade.png", alt="icon-jade")
+							p 84%
+					.col-md-3.col-sm-3.col-xs-12
+						.circle.4
+							img(src="assets/img/skills/icon-jade.png", alt="icon-jade")
+							p 82%
+				.row.circle-group
+					.col-md-3.col-sm-3.col-xs-12
+						.circle.5
+							img(src="assets/img/skills/icon-bootstrap.png")
+							p 90%
+					.col-md-3.col-sm-3.col-xs-12
+						.circle.6
+							img(src="assets/img/skills/icon-jquery.png", alt="icon-jade")
+							p 45%
+					.col-md-3.col-sm-3.col-xs-12
+						.circle.6
+							img(src="assets/img/skills/icon-jquery.png")
+							p 45%
+					.col-md-3.col-sm-3.col-xs-12
+						.circle.7
+							img(src="assets/img/skills/icon-jade.png", alt="icon-jade")
+							p 80%
+		section#work
+			.container
+				h2 Mis Trabajos
+				.row
+					.col-md-4
+						figure.effect
+							img(src="assets/img/work/blog.png" alt="blog")
+							figcaption
+								h3 BLOG
+								p Trabajo realizado con Css, Html y Bootstrap
+								a(href="#")
+									i.ion-social-github
+					.col-md-4
+						figure.effect
+							img(src="assets/img/work/dash.png")
+							figcaption
+					.col-md-4
+						figure.effect
+							img(src="assets/img/work/flat.png")
+							figcaption
+								h3 TITULO
+								p Trabajo relaiza con ...
+								a(href="#")
+									i.ion-social-github
+				.row
+					.col-md-4
+						figure.effect
+							img(src="assets/img/work/knot.jpg")
+							figcaption
+								h3 TITULO
+								p Trabajo relaiza con ...
+								a(href="https://github.com/Vennus/Knots")
+									i.ion-social-github
+								a(href="http://vennus.github.io/Knots/")
+									i
+					.col-md-4
+						figure.effect
+							img(src="assets/img/work/kane.png")
+							figcaption
+								h3 TITULO
+								p Trabajo relaiza con ...
+								a(href="#")
+									i.ion-social-github
+								a(href="http://vennus.github.io/kane/")
+									i.ion-social-apple-outline
+					.col-md-4
+						figure.effect
+							img(src="assets/img/work/love.png")
+							figcaption
+								h3 TITULO
+								p Trabajo relaiza con ...
+								a(href="#")
+									i.ion-social-github
+		section#contact
+			.container
+				h2 Contactame
+				.row
+					p.text-contact Hey! ¿Te gusta lo que ves? ¿Listo para empezar tu siguiente proyecto? ¡Genial! Dame una llamada o envíame un correo y te responderé lo más rápido que pueda.
+				.row
+					.col-md-6
+						i.ion-ios-telephone
+						p 961-761-914
+					.col-md-6
+						i.ion-android-mail
+						p ccencho.monica@gmail.com
+				.row
+					.col-md-4
+						a(href="www.linkedin.com/in/monica-ccencho")
+							i.ion-social-linkedin
+					.col-md-4
+						a(href="https://github.com/Vennus")
+							i.ion-social-github
+					.col-md-4
+						a(href="https://twitter.com/MonicaCcencho")
+							i.ion-social-twitter
+		include base/footer
+		script(src="assets/js/jquery.js")
+		script(src="assets/js/AnimatedHeader.js")
+		script(src="assets/js/bootstrap.min.js")
+		script(src="assets/js/main.js")

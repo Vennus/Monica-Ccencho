@@ -1,0 +1,66 @@
+header {
+	nav,.navbar-inverse{
+		background:transparent;
+		height: 65px;
+		border:0;
+		.navbar-toggle:hover{
+			background:#4cf39c;
+			border-radius:6px;
+		}
+		.navbar-toggle:focus{
+			background:#4cf39c;
+			border-radius:6px;
+		}.navbar-toggle{
+			border:none;
+		}
+		.navbar-collapse{
+			background:rgba(33, 33, 33, 0.54);
+			border:none;
+		}
+	}
+		
+		
+		.navbar-brand{
+			padding: 8px 15px;
+			color: white;
+		}
+		.navbar-inverse .navbar-nav > li > a{
+			color:#16ffbd;
+			font-family: 'Poiret One', cursive;
+			font-weight: bold;
+			font-size: 1.5em;
+			&:hover{
+				background: black;
+				color:#16ffbd;
+			}
+		}	
+		.icon-logo{
+			width: 70%;
+		}
+}
+.bg-perfil{
+	text-align:center;
+	padding:250px 0;
+	background:url("../img/background/bg-8.jpg") no-repeat;
+	background-size:cover;
+	background-color:rgba(0, 0, 255, 0.46);
+	background-blend-mode:color;
+	background-attachment:fixed;
+	img{
+		width: 40%;
+	}
+}
+#menu.active {
+		background: black;
+		padding: 5px 0;
+		color:white;
+		webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		-ms-transform: translateY(0);
+		-o-transform: translateY(0);
+		transform: translateY(0);
+		-webkit-transition: all 0s ease-in-out;
+		-moz-transition: all 0.0s ease-in-out;
+		transition: all 0.1s ease-in-out;
+		-webkit-transform: translateZ(0);
+	}

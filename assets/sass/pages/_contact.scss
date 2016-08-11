@@ -1,0 +1,18 @@
+#contact{
+	text-align: center;
+	padding:40px;
+	.text-contact{
+		padding: 30px 150px ;
+	}
+	i{
+		font-size: 3em;
+		color: #16ffbd;
+	}
+	i:hover{
+			background: #16ffbd;
+			border-radius: 10px;
+			padding:10px;
+			color: white;
+			transition:.5s;
+		}
+}

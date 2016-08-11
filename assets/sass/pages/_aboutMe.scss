@@ -1,6 +1,8 @@
 #about-me{
-	padding:10%;
 	background:url("../img/about.png");
+	.text-about{
+		padding: 5% 0;
+	}
 	p{
 		font-family: 'Flamenco', cursive;
 		font-size: 2em;
@@ -11,7 +13,7 @@
 		width: 60%;
 	}
 }
-.about-footer{
+.frase{
 	background:url("../img/background/bg-1.jpg")no-repeat;
 	height: 250px;
 	background-size:cover;
@@ -21,7 +23,6 @@
 	h3{
 		color:white;
 		text-align:center;
-		line-height: 250px;
-		font-size: 2em;
+		padding:85px 0;
 	}
 }
