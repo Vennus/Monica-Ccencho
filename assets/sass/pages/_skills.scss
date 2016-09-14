@@ -1,39 +1,57 @@
 #skills{
-	padding:40px;
-	hr{
-		border: 2px solid blue;
-	}
-	p{
-		font-size: 1.2em;
-		margin: 4% 0;
-	}
-	.circle-group{
-		padding-bottom: 6%;
-		.circle {
-		    position: relative;
-		    display: inline-block;
-		    margin: 3%;
-		    vertical-align: top;
-		    text-align: center;
-		    width: 162px;
-		    padding-top: 40px;
-		    color: #2A3159;
-		    canvas {
-			    display: block;
-			    position: absolute;
-			    left: 0;
-			    top: 0;
-			}
-			img{
-				margin-top: 10%;
-			}
-			i{
-				font-size: 3em;
-				display: block;
-			}
-			span{
-				font-size: 1.2em;
-			}
-		}
-	}
-}
+    @import url(http://fonts.googleapis.com/css?family=Lato:100,400);
+    @keyframes load{0%{stroke-dashoffset:0}}
+    padding: 80px 0 60px;
+    background: url("../img/play.png");
+    img{
+        width: 120px;
+        border-radius: 100px;
+        height: 120px;
+        border: 1px dashed black;
+    }
+    
+    .circle {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        color: #93A2AC;
+        font-family: Lato;
+        font-weight:100;
+        margin: 4rem;
+        &:before {
+            content: attr(data-name);
+            position: absolute;
+            width: 100%;
+            bottom: -2rem;
+            font-weight:400;
+        }
+        &:after {
+            content: attr(data-percent);
+            position: absolute;
+            width: 100%;
+            top: 3.7rem;
+            left: 0;
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+    svg {
+        width: 10rem;
+        height: 10rem;
+        &:nth-child(2) {
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: rotate(-90deg);
+        }
+        &:nth-child(2) path {
+            fill: none;
+            stroke-width: 25;
+            stroke-dasharray: 629;
+            stroke: #fff;
+            opacity:.9;
+            animation: load 4s;
+        }
+    }
+
+    } 

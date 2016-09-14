@@ -1,116 +1,130 @@
 #work{
-	padding: 40px;
-	img{
-		width: 100%;
-		opacity: 1;
+	background:#ecebeb;
+	padding: 80px 0 60px;
+	.row{
+		padding:15px 0;
 	}
-	.effect {
-	  overflow: hidden;
-	  margin: 10px 1%;
-	  width: 100%;
-	  color: #ffffff;
-	  text-align: center;
-	  font-size: 16px;
-	  -webkit-box-sizing: border-box;
-	  box-sizing: border-box;
-	  -webkit-transition: all 0.35s ease;
-	  transition: all 0.35s ease;
-	}
-	.effect:after,
-	.effect:before,
-	.effect figcaption:after,
-	.effect figcaption:before {
-	  background: #73efe4;
-	  width: 25%;
-	  position: absolute;
-	  content: '';
-	  opacity: 0;
-	  -webkit-transition: all 0.3s steps(4);
-	  transition: all 0.3s steps(4);
-	  z-index: 1;
-	  top: 100%;
-	  bottom: 0;
-	}
-	.effect:before {
-	  left: 0;
-	  -webkit-transition-delay: 0;
-	  transition-delay: 0;
-	}
-	.effect:after {
-	  left: 25%;
-	  -webkit-transition-delay: 0.1s;
-	  transition-delay: 0.1s;
-	}
-	.effect figcaption:before {
-	  left: 50%;
-	  -webkit-transition-delay: 0.2s;
-	  transition-delay: 0.2s;
-	  z-index: -1;
-	}
-	.effect figcaption:after {
-	  left: 75%;
-	  -webkit-transition-delay: 0.3s;
-	  transition-delay: 0.3s;
-	  z-index: -1;
-	}
-	.effect figcaption {
-	  position: absolute;
-	  top: 0;
-	  bottom: 0;
-	  left: 0;
-	  right: 0;
-	  z-index: 2;
-	  padding: 30px;
-	}
-	.effect h3,
-	.effect p,
-	.effect a {
-	  opacity: 0;
-	}
-	.effect {
-		h3{
-		text-transform: uppercase;
-		}
-		i{
-	  	font-size: 24px;
-	  	color: #ffffff;
-	  	text-align: center;
-	  	opacity: 0.8;
-		  	i:hover {
-			  opacity: 1;
-			}
-		}
-	}
-	/*Efecto hover*/
-	.effect:hover:after,
-	.effect.hover:after,
-	.effect:hover:before,
-	.effect.hover:before,
-	.effect:hover figcaption:after,
-	.effect.hover figcaption:after,
-	.effect:hover figcaption:before,
-	.effect.hover figcaption:before {
-	  top: 0;
-	  opacity: 0.8;
-	}
-	.effect:hover figcaption h3,
-	.effect.hover figcaption h3,
-	.effect:hover figcaption p,
-	.effect.hover figcaption p,
-	.effect:hover figcaption a,
-	.effect.hover figcaption a {
-	  -webkit-transition-delay: 0.4s;
-	  transition-delay: 0.4s;
-	}
-	.effect:hover figcaption h3,
-	.effect.hover figcaption h3,
-	.effect:hover figcaption a,
-	.effect.hover figcaption a {
-	  opacity: 1;
-	}
-	.effect:hover figcaption p,
-	.effect.hover figcaption p {
-	  opacity: 0.7;
+	.box {
+		border:1px solid rgba(0, 0, 0, 0.6);		
+		  width: 100%;
+		  height: 100%;
+		  float: left;
+		  overflow: hidden;
+		  position: relative;
+		  text-align: center;
+		  cursor: default;
+		  .text {
+		    width: 100%;
+		    height: 100%;
+		    position: absolute;
+		    overflow: hidden;
+		    top: 0;
+		    left: 0;
+		  }
+		  img {
+		    display: block;
+		    position: relative;
+		    width: 100%;
+		  }
+		  h3 {
+		    text-transform: uppercase;
+		    color: #fff;
+		    text-align: center;
+		    position: relative;
+		    font-size: 17px;
+		    padding: 10px;
+		    background: rgba(0, 0, 0, 0.6);
+		  }
+		  a.info {
+		    display: inline-block;
+		    text-decoration: none;
+		    padding: 7px 14px;
+		    text-transform: uppercase;
+		    color: #fff;
+		    border: 1px solid #fff;
+		    margin: 50px 0 0 0;
+		    border-radius: 0px;
+		    background-color: transparent;
+		    &:hover {
+		      box-shadow: 0 0 5px #fff;
+		    }
+		  }
 	}
 
-}
+	/* remove the blue line that shows on modal buttons after you have open and close a modal */
+
+	.modal-open .modal, button:focus {
+	  outline: none !important;
+	}
+
+	/* effect hover 1 */
+
+	.effect {
+	  img {
+	    transition: all 0.4s linear;
+	    -moz-transition: all 0.4s linear;
+	    -o-transition: all 0.4s linear;
+	    -webkit-transition: all 0.4s linear;
+	    transition: all 0.4s linear;
+	  }
+	  .text {
+	    opacity: 0;
+	    background-color: rgba(0, 0, 0, 0.5);
+	    -moz-transition: all 0.4s ease-in-out;
+	    -o-transition: all 0.4s ease-in-out;
+	    -webkit-transition: all 0.4s ease-in-out;
+	    transition: all 0.4s ease-in-out;
+	  }
+	  h3 {
+	    -moz-transform: translatey(-100px);
+	    -ms-transform: translatey(-100px);
+	    -o-transform: translatey(-100px);
+	    -webkit-transform: translatey(-100px);
+	    transform: translatey(-100px);
+	    opacity: 0;
+	    -moz-transition: all 0.2s ease-in-out;
+	    -o-transition: all 0.2s ease-in-out;
+	    -webkit-transition: all 0.2s ease-in-out;
+	    transition: all 0.2s ease-in-out;
+	  }
+	  button.info {
+	    opacity: 0;
+	    -moz-transition: all 0.2s ease-in-out;
+	    -o-transition: all 0.2s ease-in-out;
+	    -webkit-transition: all 0.2s ease-in-out;
+	    transition: all 0.2s ease-in-out;
+	  }
+	  &:hover {
+	    img {
+	      -moz-transform: scale(1.2);
+	      -ms-transform: scale(1.2);
+	      -o-transform: scale(1.2);
+	      -webkit-transform: scale(1.2);
+	      transform: scale(1.2);
+	    }
+	    .text {
+	      opacity: 1;
+	    }
+	    h3 {
+	      opacity: 1;
+	      -moz-transform: translatey(0);
+	      -ms-transform: translatey(0);
+	      -o-transform: translatey(0);
+	      -webkit-transform: translatey(0);
+	      transform: translatey(0);
+	    }
+	    button.info {
+	      opacity: 1;
+	      -moz-transform: translatey(0);
+	      -ms-transform: translatey(0);
+	      -o-transform: translatey(0);
+	      -webkit-transform: translatey(0);
+	      transform: translatey(0);
+	      -moz-transition-delay: 0.2s;
+	      -o-transition-delay: 0.2s;
+	      -webkit-transition-delay: 0.2s;
+	      transition-delay: 0.2s;
+	    }
+	  }
+	}
+} 

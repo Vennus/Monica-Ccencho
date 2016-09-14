@@ -1,6 +1,327 @@
-footer{
-	background: #333;
-	text-align:center;
-	color:white;
-	padding:25px 0 10px;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Baking Bootstrap Snippets with Jade">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="assets/font/ionicons-2.0.1/css/ionicons.css">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav id="menu" role="banner" class="navbar navbar-inverse navbar-fixed-top wet-asphalt">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="home.html" class="navbar-brand"><img src="assets/img/icon-1.png" alt="logo" class="icon-logo"></a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">INICIO</a></li>
+              <li><a href="about-us.html">HABILIDADES</a></li>
+              <li><a href="services.html">MIS TRABAJOS</a></li>
+              <li><a href="portfolio.html">CONTACTO</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="bg-perfil">
+        <div class="container"><a href="#aboutMe"><img src="assets/img/name-2.png"></a>
+          <h2 class="hade"> FRONT-END DEVELOPER</h2>
+        </div>
+      </div>
+    </header>
+    <section id="about-me">
+      <div class="container text-about">
+        <h2>CONÓCEME </h2>
+        <div class="row">
+          <div class="col-md-8 col-sm-8">
+            <p>¡Hola!  mi nombre es Monica Ccencho, tengo 20 años y soy desarrolladora Front-end, y estudiante de Administración de Negocios Internacionales.</p>
+            <p>Soy una joven que se caracteriza por ser carismática e innovadora y con habiliades en HTML, CSS, JADE, SASS, BOOTSTRAP, RESPONSIVE y estoy explorando JAVASCRIPT.</p>
+          </div>
+          <div class="col-md-4 col-sm-4 text-center"><img src="assets/img/perfil.jpg" class="perfil"></div>
+        </div>
+      </div>
+    </section>
+    <section class="frase">
+      <div class="container">
+        <div class="row">
+          <h3>"Si puedes imaginarlo, puedes lograrlo"</h3>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <div class="container text-center">
+        <div class="row">
+          <h2>Habilidades</h2>
+          <p>Estas son las tecnologías que utilizo para realizar mis páginas webs.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xl-6">
+            <div data-name="HTML" data-percent="95%" class="circle">
+              <svg viewbox="-10 -10 220 220">
+                <g fill="none" stroke-width="14" transform="translate(100,100)">
+                  <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"></path>
+                  <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"></path>
+                  <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"></path>
+                  <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"></path>
+                  <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"></path>
+                  <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"></path>
+                </g>
+              </svg>
+              <svg viewbox="-10 -10 220 220">
+                <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="597.55"></path>
+              </svg>
+            </div>
+          </div>
+          <svg width="0" height="0">
+            <defs>
+              <lineargradient id="cl1" gradientunits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1">
+                <stop stop-color="#000000"></stop>
+                <stop offset="100%" stop-color="#03414D"></stop>
+              </lineargradient>
+              <lineargradient id="cl2" gradientunits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1">
+                <stop stop-color="#03414D"></stop>
+                <stop offset="100%" stop-color="#72DFD0"></stop>
+              </lineargradient>
+              <lineargradient id="cl3" gradientunits="objectBoundingBox" x1="1" y1="0" x2="0" y2="1">
+                <stop stop-color="#72DFD0"></stop>
+                <stop offset="100%" stop-color="#A0F6D2"></stop>
+              </lineargradient>
+              <lineargradient id="cl4" gradientunits="objectBoundingBox" x1="1" y1="1" x2="0" y2="0">
+                <stop stop-color="#A0F6D2"></stop>
+                <stop offset="100%" stop-color="#61e0a6"></stop>
+              </lineargradient>
+              <lineargradient id="cl5" gradientunits="objectBoundingBox" x1="0" y1="1" x2="0" y2="0">
+                <stop stop-color="#61e0a6"></stop>
+                <stop offset="100%" stop-color="#61e0a6"></stop>
+              </lineargradient>
+              <lineargradient id="cl6" gradientunits="objectBoundingBox" x1="0" y1="1" x2="1" y2="0">
+                <stop stop-color="#61e0a6"></stop>
+                <stop offset="100%" stop-color="#61e0a6"></stop>
+              </lineargradient>
+            </defs>
+          </svg>
+          <div class="col-md-3 col-sm-6 col-xl-6">
+            <div data-name="JADE" data-percent="75%" class="circle">
+              <svg viewbox="-10 -10 220 220">
+                <g fill="none" stroke-width="14" transform="translate(100,100)">
+                  <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"></path>
+                  <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"></path>
+                  <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"></path>
+                  <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"></path>
+                  <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"></path>
+                  <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"></path>
+                </g>
+              </svg>
+              <svg viewbox="-10 -10 220 220">
+                <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="471.75"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xl-6">
+            <div data-name="CSS" data-percent="95%" class="circle">
+              <svg viewbox="-10 -10 220 220">
+                <g fill="none" stroke-width="14" transform="translate(100,100)">
+                  <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"></path>
+                  <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"></path>
+                  <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"></path>
+                  <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"></path>
+                  <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"></path>
+                  <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"></path>
+                </g>
+              </svg>
+              <svg viewbox="-10 -10 220 220">
+                <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="597.55"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xl-6">
+            <div data-name="SASS" data-percent="70%" class="circle">
+              <svg viewbox="-10 -10 220 220">
+                <g fill="none" stroke-width="14" transform="translate(100,100)">
+                  <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"></path>
+                  <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"></path>
+                  <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"></path>
+                  <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"></path>
+                  <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"></path>
+                  <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"></path>
+                </g>
+              </svg>
+              <svg viewbox="-10 -10 220 220">
+                <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="440.3"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xl-6">
+            <div data-name="JAVASCRIPT" data-percent="35%" class="circle">
+              <svg viewbox="-10 -10 220 220">
+                <g fill="none" stroke-width="14" transform="translate(100,100)">
+                  <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"></path>
+                  <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"></path>
+                  <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"></path>
+                  <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"></path>
+                  <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"></path>
+                  <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"></path>
+                </g>
+              </svg>
+              <svg viewbox="-10 -10 220 220">
+                <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="220.15"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xl-6">
+            <div data-name="JQUERY" data-percent="30%" class="circle">
+              <svg viewbox="-10 -10 220 220">
+                <g fill="none" stroke-width="14" transform="translate(100,100)">
+                  <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"></path>
+                  <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"></path>
+                  <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"></path>
+                  <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"></path>
+                  <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"></path>
+                  <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"></path>
+                </g>
+              </svg>
+              <svg viewbox="-10 -10 220 220">
+                <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="188.7"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xl-6">
+            <div data-name="GIT/GITHUB" data-percent="50%" class="circle">
+              <svg viewbox="-10 -10 220 220">
+                <g fill="none" stroke-width="14" transform="translate(100,100)">
+                  <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"></path>
+                  <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"></path>
+                  <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"></path>
+                  <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"></path>
+                  <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"></path>
+                  <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"></path>
+                </g>
+              </svg>
+              <svg viewbox="-10 -10 220 220">
+                <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="314.5"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xl-6">
+            <div data-name="WORDPRESS" data-percent="30%" class="circle">
+              <svg viewbox="-10 -10 220 220">
+                <g fill="none" stroke-width="14" transform="translate(100,100)">
+                  <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"></path>
+                  <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"></path>
+                  <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"></path>
+                  <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"></path>
+                  <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"></path>
+                  <path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"></path>
+                </g>
+              </svg>
+              <svg viewbox="-10 -10 220 220">
+                <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="188.7"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="work">
+      <div class="container">
+        <h2>Mis Trabajos</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="box effect"><img src="assets/img/work/blog.png" alt="blog">
+              <div class="text">
+                <h3>BLOG</h3><a href="http://vennus.github.io/responsive-blog/" data-toggle="modal" class="info"> 
+                  <p>Echale un vistaso</p></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box effect"><img src="assets/img/work/dash.png">
+              <div class="text">
+                <h3>DASH</h3><a href="#" data-toggle="modal" class="info"> 
+                  <p>Echale un vistaso</p></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box effect"><img src="assets/img/work/flat.png">
+              <div class="text">
+                <h3>FLAT</h3><a href="#" data-toggle="modal" class="info"> 
+                  <p>Echale un vistaso</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="box effect"><img src="assets/img/work/knot.jpg">
+              <div class="text">
+                <h3>KNOT</h3><a href="http://vennus.github.io/Knots/" data-toggle="modal" class="info"> 
+                  <p>Echale un vistaso</p></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box effect"><img src="assets/img/work/kane.png">
+              <div class="text">
+                <h3>KANE</h3><a href="http://vennus.github.io/kane/ " data-toggle="modal" class="info"> 
+                  <p>Echale un vistaso</p></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box effect"><img src="assets/img/work/love.png">
+              <div class="text">
+                <h3>LOVE</h3><a href="#" data-toggle="modal" class="info"> 
+                  <p>Echale un vistaso</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2>Contactame</h2>
+        <div class="row">
+          <div class="icon-rombo"><a href="https://pe.linkedin.com/in/monica-ccencho"><i class="ion-social-linkedin"></i></a></div>
+          <div class="icon-rombo"><a href="https://github.com/Vennus"><i class="ion-social-github"></i></a></div>
+          <div class="icon-rombo"><a href="https://twitter.com/MonicaCcencho"><i class="ion-social-twitter"></i></a></div>
+        </div>
+        <div class="row">
+          <p class="text-contact">Hey! ¿Te gusta lo que ves? ¿Listo para empezar tu siguiente proyecto? ¡Genial! Dame una llamada o envíame un correo y te responderé lo más rápido que pueda.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="icon-contact">
+              <div class="box-icon"><i class="ion-ios-telephone"></i></div>
+            </div>
+            <p>+51 961761914</p>
+          </div>
+          <div class="col-md-6">
+            <div class="icon-contact">
+              <div class="box-icon"> <i class="ion-android-mail"></i></div>
+            </div>
+            <p>ccencho.monica@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <p>Copyright © 2015 | Diseñado y desarrollado por Monica Ccencho.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/AnimatedHeader.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

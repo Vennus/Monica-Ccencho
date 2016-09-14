@@ -26,117 +26,206 @@ html
 					h3 "Si puedes imaginarlo, puedes lograrlo"
 		section#skills
 			.container.text-center
-				h2 Habilidades
-				p Estas son las herramientas que utilizo para realizar mis páginas web.
-				.row.circle-group
-					.col-md-3.col-sm-3.col-xs-12
-						.circle.1
-							img(src="assets/img/skills/icon-html.png", alt="icon-jade")
-							p 85%
-					.col-md-3.col-sm-3.col-xs-12
-						.circle.2
-							img(src="assets/img/skills/icon-css.png", alt="icon-jade")
-							p 82%
-					.col-md-3.col-sm-3.col-xs-12
-						.circle.3
-							img(src="assets/img/skills/icon-jade.png", alt="icon-jade")
-							p 84%
-					.col-md-3.col-sm-3.col-xs-12
-						.circle.4
-							img(src="assets/img/skills/icon-jade.png", alt="icon-jade")
-							p 82%
-				.row.circle-group
-					.col-md-3.col-sm-3.col-xs-12
-						.circle.5
-							img(src="assets/img/skills/icon-bootstrap.png")
-							p 90%
-					.col-md-3.col-sm-3.col-xs-12
-						.circle.6
-							img(src="assets/img/skills/icon-jquery.png", alt="icon-jade")
-							p 45%
-					.col-md-3.col-sm-3.col-xs-12
-						.circle.6
-							img(src="assets/img/skills/icon-jquery.png")
-							p 45%
-					.col-md-3.col-sm-3.col-xs-12
-						.circle.7
-							img(src="assets/img/skills/icon-jade.png", alt="icon-jade")
-							p 80%
+				.row
+					h2 Habilidades
+					p Estas son las tecnologías que utilizo para realizar mis páginas webs.
+				.row
+					.col-md-3.col-sm-6.col-xl-6
+						.circle(data-name="HTML" data-percent="95%")
+							svg(viewbox='-10 -10 220 220')
+								g(fill='none', stroke-width='14', transform='translate(100,100)')
+									path(d='M 0,-100 A 100,100 0 0,1 86.6,-50', stroke='url(#cl1)')
+									path(d='M 86.6,-50 A 100,100 0 0,1 86.6,50', stroke='url(#cl2)')
+									path(d='M 86.6,50 A 100,100 0 0,1 0,100', stroke='url(#cl3)')
+									path(d='M 0,100 A 100,100 0 0,1 -86.6,50', stroke='url(#cl4)')
+									path(d='M -86.6,50 A 100,100 0 0,1 -86.6,-50', stroke='url(#cl5)')
+									path(d='M -86.6,-50 A 100,100 0 0,1 0,-100', stroke='url(#cl6)')
+							svg(viewbox='-10 -10 220 220')
+								path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='597.55')
+					svg(width='0', height='0')
+						defs
+							lineargradient#cl1(gradientunits='objectBoundingBox', x1='0', y1='0', x2='1', y2='1')
+								stop(stop-color='#000000')
+								stop(offset='100%', stop-color='#03414D')
+							lineargradient#cl2(gradientunits='objectBoundingBox', x1='0', y1='0', x2='0', y2='1')
+								stop(stop-color='#03414D')
+								stop(offset='100%', stop-color='#72DFD0')
+							lineargradient#cl3(gradientunits='objectBoundingBox', x1='1', y1='0', x2='0', y2='1')
+								stop(stop-color='#72DFD0')
+								stop(offset='100%', stop-color='#A0F6D2')
+							lineargradient#cl4(gradientunits='objectBoundingBox', x1='1', y1='1', x2='0', y2='0')
+								stop(stop-color='#A0F6D2')
+								stop(offset='100%', stop-color='#61e0a6')
+							lineargradient#cl5(gradientunits='objectBoundingBox', x1='0', y1='1', x2='0', y2='0')
+								stop(stop-color='#61e0a6')
+								stop(offset='100%', stop-color='#61e0a6')
+							lineargradient#cl6(gradientunits='objectBoundingBox', x1='0', y1='1', x2='1', y2='0')
+								stop(stop-color='#61e0a6')
+								stop(offset='100%', stop-color='#61e0a6')
+					.col-md-3.col-sm-6.col-xl-6
+						.circle(data-name="JADE" data-percent="75%")
+							svg(viewbox='-10 -10 220 220')
+								g(fill='none', stroke-width='14', transform='translate(100,100)')
+									path(d='M 0,-100 A 100,100 0 0,1 86.6,-50', stroke='url(#cl1)')
+									path(d='M 86.6,-50 A 100,100 0 0,1 86.6,50', stroke='url(#cl2)')
+									path(d='M 86.6,50 A 100,100 0 0,1 0,100', stroke='url(#cl3)')
+									path(d='M 0,100 A 100,100 0 0,1 -86.6,50', stroke='url(#cl4)')
+									path(d='M -86.6,50 A 100,100 0 0,1 -86.6,-50', stroke='url(#cl5)')
+									path(d='M -86.6,-50 A 100,100 0 0,1 0,-100', stroke='url(#cl6)')
+							svg(viewbox='-10 -10 220 220')
+								path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='471.75')
+						
+					.col-md-3.col-sm-6.col-xl-6
+						.circle(data-name="CSS" data-percent="95%")
+							svg(viewbox='-10 -10 220 220')
+								g(fill='none', stroke-width='14', transform='translate(100,100)')
+									path(d='M 0,-100 A 100,100 0 0,1 86.6,-50', stroke='url(#cl1)')
+									path(d='M 86.6,-50 A 100,100 0 0,1 86.6,50', stroke='url(#cl2)')
+									path(d='M 86.6,50 A 100,100 0 0,1 0,100', stroke='url(#cl3)')
+									path(d='M 0,100 A 100,100 0 0,1 -86.6,50', stroke='url(#cl4)')
+									path(d='M -86.6,50 A 100,100 0 0,1 -86.6,-50', stroke='url(#cl5)')
+									path(d='M -86.6,-50 A 100,100 0 0,1 0,-100', stroke='url(#cl6)')
+							svg(viewbox='-10 -10 220 220')
+								path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='597.55')
+						
+					.col-md-3.col-sm-6.col-xl-6
+						.circle(data-name="SASS" data-percent="70%")
+							svg(viewbox='-10 -10 220 220')
+								g(fill='none', stroke-width='14', transform='translate(100,100)')
+									path(d='M 0,-100 A 100,100 0 0,1 86.6,-50', stroke='url(#cl1)')
+									path(d='M 86.6,-50 A 100,100 0 0,1 86.6,50', stroke='url(#cl2)')
+									path(d='M 86.6,50 A 100,100 0 0,1 0,100', stroke='url(#cl3)')
+									path(d='M 0,100 A 100,100 0 0,1 -86.6,50', stroke='url(#cl4)')
+									path(d='M -86.6,50 A 100,100 0 0,1 -86.6,-50', stroke='url(#cl5)')
+									path(d='M -86.6,-50 A 100,100 0 0,1 0,-100', stroke='url(#cl6)')
+							svg(viewbox='-10 -10 220 220')
+								path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='440.3')
+				.row
+					.col-md-3.col-sm-6.col-xl-6
+						.circle(data-name="JAVASCRIPT" data-percent="35%")
+							svg(viewbox='-10 -10 220 220')
+								g(fill='none', stroke-width='14', transform='translate(100,100)')
+									path(d='M 0,-100 A 100,100 0 0,1 86.6,-50', stroke='url(#cl1)')
+									path(d='M 86.6,-50 A 100,100 0 0,1 86.6,50', stroke='url(#cl2)')
+									path(d='M 86.6,50 A 100,100 0 0,1 0,100', stroke='url(#cl3)')
+									path(d='M 0,100 A 100,100 0 0,1 -86.6,50', stroke='url(#cl4)')
+									path(d='M -86.6,50 A 100,100 0 0,1 -86.6,-50', stroke='url(#cl5)')
+									path(d='M -86.6,-50 A 100,100 0 0,1 0,-100', stroke='url(#cl6)')
+							svg(viewbox='-10 -10 220 220')
+								path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='220.15')
+					.col-md-3.col-sm-6.col-xl-6
+						.circle(data-name="JQUERY" data-percent="30%")
+							svg(viewbox='-10 -10 220 220')
+								g(fill='none', stroke-width='14', transform='translate(100,100)')
+									path(d='M 0,-100 A 100,100 0 0,1 86.6,-50', stroke='url(#cl1)')
+									path(d='M 86.6,-50 A 100,100 0 0,1 86.6,50', stroke='url(#cl2)')
+									path(d='M 86.6,50 A 100,100 0 0,1 0,100', stroke='url(#cl3)')
+									path(d='M 0,100 A 100,100 0 0,1 -86.6,50', stroke='url(#cl4)')
+									path(d='M -86.6,50 A 100,100 0 0,1 -86.6,-50', stroke='url(#cl5)')
+									path(d='M -86.6,-50 A 100,100 0 0,1 0,-100', stroke='url(#cl6)')
+							svg(viewbox='-10 -10 220 220')
+								path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='188.7')
+					.col-md-3.col-sm-6.col-xl-6
+						.circle(data-name="GIT/GITHUB" data-percent="50%")
+							svg(viewbox='-10 -10 220 220')
+								g(fill='none', stroke-width='14', transform='translate(100,100)')
+									path(d='M 0,-100 A 100,100 0 0,1 86.6,-50', stroke='url(#cl1)')
+									path(d='M 86.6,-50 A 100,100 0 0,1 86.6,50', stroke='url(#cl2)')
+									path(d='M 86.6,50 A 100,100 0 0,1 0,100', stroke='url(#cl3)')
+									path(d='M 0,100 A 100,100 0 0,1 -86.6,50', stroke='url(#cl4)')
+									path(d='M -86.6,50 A 100,100 0 0,1 -86.6,-50', stroke='url(#cl5)')
+									path(d='M -86.6,-50 A 100,100 0 0,1 0,-100', stroke='url(#cl6)')
+							svg(viewbox='-10 -10 220 220')
+								path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='314.5')
+						
+					.col-md-3.col-sm-6.col-xl-6
+						.circle(data-name="WORDPRESS" data-percent="30%")
+							svg(viewbox='-10 -10 220 220')
+								g(fill='none', stroke-width='14', transform='translate(100,100)')
+									path(d='M 0,-100 A 100,100 0 0,1 86.6,-50', stroke='url(#cl1)')
+									path(d='M 86.6,-50 A 100,100 0 0,1 86.6,50', stroke='url(#cl2)')
+									path(d='M 86.6,50 A 100,100 0 0,1 0,100', stroke='url(#cl3)')
+									path(d='M 0,100 A 100,100 0 0,1 -86.6,50', stroke='url(#cl4)')
+									path(d='M -86.6,50 A 100,100 0 0,1 -86.6,-50', stroke='url(#cl5)')
+									path(d='M -86.6,-50 A 100,100 0 0,1 0,-100', stroke='url(#cl6)')
+							svg(viewbox='-10 -10 220 220')
+								path(d='M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z', stroke-dashoffset='188.7')
+						
 		section#work
 			.container
 				h2 Mis Trabajos
 				.row
 					.col-md-4
-						figure.effect
+						.box.effect
 							img(src="assets/img/work/blog.png" alt="blog")
-							figcaption
+							.text
 								h3 BLOG
-								p Trabajo realizado con Css, Html y Bootstrap
-								a(href="#")
-									i.ion-social-github
+								a(href="http://vennus.github.io/responsive-blog/").info(data-toggle="modal") 
+									p Echale un vistaso
 					.col-md-4
-						figure.effect
+						.box.effect
 							img(src="assets/img/work/dash.png")
-							figcaption
+							.text
+								h3 DASH
+								a(href="#").info(data-toggle="modal") 
+									p Echale un vistaso
 					.col-md-4
-						figure.effect
+						.box.effect
 							img(src="assets/img/work/flat.png")
-							figcaption
-								h3 TITULO
-								p Trabajo relaiza con ...
-								a(href="#")
-									i.ion-social-github
+							.text
+								h3 FLAT
+								a(href="#").info(data-toggle="modal") 
+									p Echale un vistaso
 				.row
 					.col-md-4
-						figure.effect
+						.box.effect
 							img(src="assets/img/work/knot.jpg")
-							figcaption
-								h3 TITULO
-								p Trabajo relaiza con ...
-								a(href="https://github.com/Vennus/Knots")
-									i.ion-social-github
-								a(href="http://vennus.github.io/Knots/")
-									i
+							.text
+								h3 KNOT
+								a(href="http://vennus.github.io/Knots/").info(data-toggle="modal") 
+									p Echale un vistaso
 					.col-md-4
-						figure.effect
+						.box.effect
 							img(src="assets/img/work/kane.png")
-							figcaption
-								h3 TITULO
-								p Trabajo relaiza con ...
-								a(href="#")
-									i.ion-social-github
-								a(href="http://vennus.github.io/kane/")
-									i.ion-social-apple-outline
+							.text
+								h3 KANE
+								a(href="http://vennus.github.io/kane/ ").info(data-toggle="modal") 
+									p Echale un vistaso
 					.col-md-4
-						figure.effect
+						.box.effect
 							img(src="assets/img/work/love.png")
-							figcaption
-								h3 TITULO
-								p Trabajo relaiza con ...
-								a(href="#")
-									i.ion-social-github
+							.text
+								h3 LOVE
+								a(href="#").info(data-toggle="modal") 
+									p Echale un vistaso
 		section#contact
 			.container
 				h2 Contactame
 				.row
+					.icon-rombo
+						a(href="https://pe.linkedin.com/in/monica-ccencho")
+							i.ion-social-linkedin
+					.icon-rombo
+						a(href="https://github.com/Vennus")
+							i.ion-social-github
+					.icon-rombo
+						a(href="https://twitter.com/MonicaCcencho")
+							i.ion-social-twitter
+				.row
 					p.text-contact Hey! ¿Te gusta lo que ves? ¿Listo para empezar tu siguiente proyecto? ¡Genial! Dame una llamada o envíame un correo y te responderé lo más rápido que pueda.
 				.row
 					.col-md-6
-						i.ion-ios-telephone
-						p 961-761-914
+						.icon-contact
+							.box-icon
+								i.ion-ios-telephone
+						p +51 961761914
 					.col-md-6
-						i.ion-android-mail
+						.icon-contact
+							.box-icon 
+								i.ion-android-mail
 						p ccencho.monica@gmail.com
-				.row
-					.col-md-4
-						a(href="www.linkedin.com/in/monica-ccencho")
-							i.ion-social-linkedin
-					.col-md-4
-						a(href="https://github.com/Vennus")
-							i.ion-social-github
-					.col-md-4
-						a(href="https://twitter.com/MonicaCcencho")
-							i.ion-social-twitter
+				
+						
 		include base/footer
 		script(src="assets/js/jquery.js")
 		script(src="assets/js/AnimatedHeader.js")
